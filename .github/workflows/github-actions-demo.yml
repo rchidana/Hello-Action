@@ -22,4 +22,4 @@ jobs:
       - name: example-step
         run: echo "Hello World!"
       - name: print-ENV
-        run: echo [System.Environment]::GetEnvironmentVariables()
+        run: "[System.Environment]::GetEnvironmentVariables()"
