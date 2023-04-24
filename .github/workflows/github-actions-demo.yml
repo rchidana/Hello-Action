@@ -22,4 +22,4 @@ jobs:
       - name: example-step
         run: echo "Hello World!"
       - name: print-ENV
-        run: echo "%PATH%  %JAVA_HOME%   %MAVEN_HOME%"
+        run: echo %PATH%  %JAVA_HOME%   %MAVEN_HOME%
